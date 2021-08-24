@@ -14,4 +14,12 @@ public class MyStack<K> {
 	public void printStack() {
 		l1.print();
 	}
+	
+	public void peek(){
+		System.out.println(l1.head.getKey());
+	}
+	
+	public INode<K> pop(){
+		return l1.pop();
+	}	
 }

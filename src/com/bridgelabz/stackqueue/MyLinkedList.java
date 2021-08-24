@@ -2,7 +2,7 @@ package com.bridgelabz.stackqueue;
 
 public class MyLinkedList<K> {
 	
-	private INode<K> head;
+	INode<K> head;
 	private INode<K> tail;
 	
 	public void add(INode<K> newNode) {
@@ -29,5 +29,11 @@ public class MyLinkedList<K> {
 			tempNode = tempNode.getNext();
 		}
 		System.out.println(str);
+	}
+	
+	public INode<K> pop() {
+		INode<K> tempNode = this.head;
+		this.head = head.getNext();
+		return tempNode;
 	}
 }
