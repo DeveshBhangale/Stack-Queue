@@ -13,15 +13,15 @@ public class Runner {
 		MyNode<Integer> thirdNode = new MyNode<>(56);
 		
 		// Use Case 1
-		myStack.push(firstNode);
-		myStack.push(secondNode);
-		myStack.push(thirdNode);
-		myStack.printStack();
+//		myStack.push(firstNode);
+//		myStack.push(secondNode);
+//		myStack.push(thirdNode);
+//		myStack.printStack();
 		
 		// Use Case 2
-		myStack.peek();
-		myStack.pop();		
-		myStack.printStack();
+//		myStack.peek();
+//		myStack.pop();		
+//		myStack.printStack();
 		
 		// Use Case 3
 		myQueue.enqueue(thirdNode);
