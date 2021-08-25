@@ -16,4 +16,8 @@ public class MyQueue<K> {
 	public void printQueue() {
 		l1.print();
 	}
+	
+	public void deQueue() {
+		l1.deQueue();
+	}
 }

@@ -28,6 +28,10 @@ public class Runner {
 		myQueue.enqueue(secondNode);
 		myQueue.enqueue(firstNode);
 		myQueue.printQueue();
+		
+		//Use Case 4
+		myQueue.deQueue();
+		myQueue.printQueue();
 	}
 
 }

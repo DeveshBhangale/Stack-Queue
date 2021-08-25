@@ -2,7 +2,7 @@ package com.bridgelabz.stackqueue;
 
 public class MyNode<K> implements INode<K> {
 	private K key;
-	private INode next;
+	private INode<K> next;
 
 	public MyNode(K key) {
 		this.key = (key);

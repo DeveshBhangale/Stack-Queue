@@ -36,4 +36,12 @@ public class MyLinkedList<K> {
 		this.head = head.getNext();
 		return tempNode;
 	}
+	
+	public void deQueue(){
+		while(head!=null) {
+			System.out.println("Removing "+ head.getKey() +" from linkedlist");
+			head = head.getNext();
+		}
+	}
+	
 }
